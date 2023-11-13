@@ -10,16 +10,7 @@
             margin: 0;
          } 
 
-        nav {
-          background-color: rgb(138, 141, 54); 
-          color:whitesmoke; 
-          padding-top: 2em; 
-          padding-bottom: 2em; 
-          padding-right: 2em; 
-          text-align: right; 
-          font-family: Arial;
-          font-size: medium;
-        }
+
         
         footer {
           font-size: 100%; 
@@ -28,18 +19,24 @@
           color:black;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="/nav-style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="horizontal-nav">
-                <a href="/dhertz-final-project/home-page/index.html">Home</a>
-                <a class="active-menu-item" href="/dhertz-final-project/about-maxwell-park/about-maxwell-park.html">About</a>
-                <a href="/dhertz-final-project/last-year/last-year.html">Last year</a>
-                <a href="/dhertz-final-project/get-involved/get-involved.html">Get involved</a>
-            </div>
-        </nav>
-    </header>
+  <section class="top-nav">
+    <div>
+      <!-- Logo could go here -->
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="/home-page/">Home</a></li>
+      <li><a href="/about-maxwell-park/about-maxwell-park.html">About</a></li>
+      <li><a href="/last-year/last-year.html">Last year</a></li>
+      <li><a href="/get-involved/get-involved.html">Get involved</a></li>
+    </ul>
+  </section>
     <main>
         <article>
             <div>

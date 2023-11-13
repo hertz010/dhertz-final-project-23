@@ -4,24 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2023 Maxwell Park Block Party</title>
-
-</head>
-<style>
-     * {
-      padding: 0;
-      margin: 0;
-    } 
-        nav {
-            background-color:rgb(138, 141, 54); 
-            color:black; 
-            padding-top: 2em; 
-            padding-bottom: 2em; 
-            padding-right: 2em; 
-            text-align: right; 
-            font-family: Arial; 
-            border-bottom: 1px; 
-            font-size: 100%;}
-
+    <style>
+        * {
+         padding: 0;
+         margin: 0;
+       } 
+          
         h1 {
             font-size: 400%; 
             background-color: whitesmoke; 
@@ -31,7 +19,7 @@
             padding-bottom: 0%; 
             text-align: center;
         }
-       
+        
         h2 {
             font-size: 250%; 
             font-family: Arial; 
@@ -53,9 +41,9 @@
             text-align:center; 
             padding-top: .25em;
         }
-       
+        
         main {
-            background-image: url(/dhertz-final-project/home-page/Home\ page\ full\ screen\ image.jpeg);
+            background-image: url(/Images/home-page-full-screen-image.jpeg);
             background-size: cover;
             height: 100vh;
             background-position: center;
@@ -68,20 +56,26 @@
             text-align: center;
             background-color: rgb(158, 192, 230)
         }
-  </style>
-</style>
+   </style>
+    <link rel="stylesheet" type="text/css" href="/nav-style.css">
+</head>
+
 <body>
-    <header>
-        <a href="/dhertz-final-project/home-page/"></a>
-        <nav>
-            <div class="horizontal-nav flex-container">
-                <a href="/dhertz-final-project/home-page/index.html">Home</a>
-                <a href="/dhertz-final-project/about-maxwell-park/about-maxwell-park.html">About</a>
-                <a href="/dhertz-final-project/last-year/last-year.html">Last year</a>
-                <a href="/dhertz-final-project/get-involved/get-involved.html">Get involved</a>
-            </div>
-        </nav>
-    </header>
+    <section class="top-nav">
+        <div>
+          <!-- Logo could go here -->
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="/home-page/">Home</a></li>
+          <li><a href="/about-maxwell-park/about-maxwell-park.html">About</a></li>
+          <li><a href="/last-year/last-year.html">Last year</a></li>
+          <li><a href="/get-involved/get-involved.html">Get involved</a></li>
+        </ul>
+    </section>
     <main>
         <section style="width: 100%; float: left; padding-bottom: 5px; padding-right: 15px; position: sticky; top: 0px; background-color: whitesmoke;">
             <h1>Welcome to the Neighborhood!</h1>
